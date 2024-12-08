@@ -10,16 +10,16 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "22451491"))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH","28e74942125f7e4968398ea651cd417b")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN","6932352695:AAE9_U6bfMujG6bVI03fk41yejpDAo6SUGg")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "FlopMusic_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Teammusic07_bot")
 
 # Bot id
 BOT_ID = int(getenv("BOT_ID", "7634367413"))
@@ -78,7 +78,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002158228044"))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7009601543").split())
+    map(int, getenv("OWNER_ID", "5595153270").split())
 )  # Input type must be interger
 
 
@@ -101,7 +101,7 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/Badhacker98/BADMUSIC",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Bad")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Main")
 
 # GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv(

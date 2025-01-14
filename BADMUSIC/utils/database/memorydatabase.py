@@ -4,7 +4,7 @@ from typing import Dict, List, Union
 is_maintenance
 import config
 from BADMUSIC.core.mongo import mongodb
-
+on_off
 channeldb = mongodb.cplaymode
 commanddb = mongodb.commands
 cleandb = mongodb.cleanmode

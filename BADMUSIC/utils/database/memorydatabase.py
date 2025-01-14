@@ -1,7 +1,7 @@
 import json
 import os
 from typing import Dict, List, Union
-is_maintenance
+is_commanddelete_on
 import config
 from BADMUSIC.core.mongo import mongodb
 on_off

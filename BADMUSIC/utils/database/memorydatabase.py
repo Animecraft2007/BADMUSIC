@@ -1,7 +1,7 @@
 import json
 import os
 from typing import Dict, List, Union
-get_lang
+add_sudo
 import config
 from BADMUSIC.core.mongo import mongodb
 on_off

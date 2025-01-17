@@ -1,7 +1,7 @@
 import json
 import os
 from typing import Dict, List, Union
-add_sudo
+get_banned_users
 import config
 from BADMUSIC.core.mongo import mongodb
 on_off

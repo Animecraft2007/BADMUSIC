@@ -1,5 +1,5 @@
-add_sudo
 
+get_banned_users
 from typing import Dict, List, Union
 
 from BADMUSIC.core.mongo import mongodb
